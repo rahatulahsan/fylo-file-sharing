@@ -1,7 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   darkMode: 'class',
-  content: ['./pages/**/*.{html,js}',
+  content: [
+    'node_modules/preline/dist/*.js',
+    './pages/**/*.{html,js}',
   './components/**/*.{html,js}',,
   "./src/**/*.{html,js}",
   "'*.{html,js}'"],
@@ -16,6 +18,8 @@ module.exports = {
       }
     },
   },
-  plugins: [],
+  plugins: [
+    require('preline/plugin'),
+  ],
 }
 
