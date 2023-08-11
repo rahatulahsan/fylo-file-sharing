@@ -8,8 +8,19 @@
   }
   
 
-@layer components{
     .hero-bg-light{
         background-image: url('../assets/images/bg-curvy-light-mode.svg');
     }
-}
+    .light-logo {
+        background-image: url('../assets/images/logo-light-mode.svg');
+    }
+
+
+    .dark {
+        .dark\:dark-logo {
+          background-image: url('../assets/images/logo-dark-mode.svg');
+        }
+        .dark\:dark-hero-bg {
+            background-image: url('../assets/images/bg-curvy-dark-mode.svg');
+        }
+    }
