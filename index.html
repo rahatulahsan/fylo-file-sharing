@@ -200,40 +200,43 @@
   <!--Newsletter Section End-->
 
   <!--Footer Section Start-->
-  <footer>
+  <footer id="footer" class="bg-zinc-900">
 
-    <!--Contact Info-->
-    <div>
-        <div>
-            <img src="./assets/images/icon-phone.svg" alt="icon-phone"/>
-            <p>+1-543-123-4567</p>
-        </div>
-        <div>
-            <img src="./assets/images/icon-email.svg" alt="icon-email"/>
-            <p>example@fylo.com</p>
-        </div>
-    </div>
+    <div class="flex flex-col gap-16 py-24 px-10">
+      <!--Contact Info-->
+      <div class="flex flex-col gap-6">
+          <div class="flex flex-row text-white space-x-4">
+              <img src="./assets/images/icon-phone.svg" alt="icon-phone" class="w-7"/>
+              <p class="font-sans text-lg">+1-543-123-4567</p>
+          </div>
+          <div class="flex flex-row text-white space-x-4">
+              <img src="./assets/images/icon-email.svg" alt="icon-email" class="w-7"/>
+              <p class="font-sans text-lg">example@fylo.com</p>
+          </div>
+      </div>
 
-    <!--Menu Items-->
-    <div>
-        <div>
-            <a href="#">About</a>
-            <a href="#">Jobs</a>
-            <a href="#">Press</a>
-            <a href="#">Blog</a>
-        </div>
-        <div>
-            <a href="#">Contact Us</a>
-            <a href="#">Terms</a>
-            <a href="#">Privacy</a>
-        </div>
-    </div>
+      <!--Menu Items-->
+      <div class="flex flex-col text-white gap-8">
+          <div class="flex flex-col gap-3 text-xl font-sans capitalize">
+              <a href="#">About</a>
+              <a href="#">Jobs</a>
+              <a href="#">Press</a>
+              <a href="#">Blog</a>
+          </div>
+          <div class="flex flex-col gap-3 text-xl font-sans capitalize">
+              <a href="#">Contact Us</a>
+              <a href="#">Terms</a>
+              <a href="#">Privacy</a>
+          </div>
+      </div>
 
-    <!--Social Icons-->
-    <div>
-        <a href="#"><img src="./assets/images/facebook.svg" alt="facebook"/></a>
-        <a href="#"><img src="./assets/images/twitter.svg"/ alt="twitter"></a>
-        <a href="#"><img src="./assets/images/instagram.svg" alt="instagram"/></a>
+      <!--Social Icons-->
+      <div class="flex flex-row space-x-5 mx-auto">
+          <a href="#"><img class="p-2 rounded-full ficon" src="./assets/images/facebook.svg" alt="facebook"/></a>
+          <a href="#"><img class="p-2 rounded-full ficon" src="./assets/images/twitter.svg"/ alt="twitter"></a>
+          <a href="#"><img class="p-2 rounded-full ficon" src="./assets/images/instagram.svg" alt="instagram"/></a>
+      </div>
+
     </div>
 
   </footer>
