@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components{
+    .hero-bg-light{
+        background-image: url('../assets/images/bg-curvy-light-mode.svg');
+    }
+}
